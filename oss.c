@@ -11,7 +11,7 @@ typedef struct {
     unsigned int nanoseconds;
 } systemClock;
 
-int main(int argc, char *argv[]) {
+int main() {
     int shm_id;
     systemClock *clock;
 
